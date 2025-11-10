@@ -6,12 +6,12 @@ ORDER BY duration DESC
 LIMIT 1;
 
 -- 2. Название треков, продолжительность которых не менее 3,5 минут
-SELECT title, duration 
+SELECT title
 FROM tracks 
 WHERE duration >= '00:03:30';
 
 -- 3. Названия сборников, вышедших в период с 2018 по 2020 год включительно
-SELECT title, release_year 
+SELECT title
 FROM compilations 
 WHERE release_year BETWEEN 2018 AND 2020;
 
@@ -23,7 +23,7 @@ WHERE name NOT LIKE '% %';
 -- 5. Название треков, которые содержат слово «мой» или «my»
 SELECT title 
 FROM tracks 
-WHERE LOWER(title) LIKE '%мой%' OR LOWER(title) LIKE '%my%';
+WHERE LOWER(title) in ('мой', 'my');
 
 -- ЗАДАНИЕ 3
 -- 1. Количество исполнителей в каждом жанре

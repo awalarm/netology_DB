@@ -51,7 +51,18 @@ INSERT INTO tracks (title, duration, album_id) VALUES
     ('Anti-Hero', '00:03:20', 6),
     ('Lavender Haze', '00:03:22', 6),
     ('Long Track', '00:05:30', 1),
-    ('My Everything', '00:04:15', 2);
+    ('My Everything', '00:04:15', 2),
+    ('my own', '00:04:15', 2),
+    ('own my', '00:04:15', 2),
+    ('my', '00:04:15', 2),
+    ('oh my god', '00:04:15', 2),
+    ('myself', '00:04:15', 2),
+    ('by myself', '00:04:15', 2),
+    ('bemy self', '00:04:15', 2),
+    ('myself by', '00:04:15', 2),
+    ('by myself by', '00:04:15', 2),
+    ('beemy', '00:04:15', 2),
+    ('premyne', '00:04:15', 2);
 
 INSERT INTO compilations (title, release_year) VALUES
     ('Best Pop Hits 2020', 2020),
